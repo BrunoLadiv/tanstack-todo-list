@@ -34,9 +34,7 @@ function RouteComponent() {
             Create a new task to add to your todo list
           </CardDescription>
         </CardHeader>
-        <CardContent>
-          <TodoForm />
-        </CardContent>
+        <CardContent>{<TodoForm />}</CardContent>
       </Card>
     </div>
   );
