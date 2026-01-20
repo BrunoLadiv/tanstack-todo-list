@@ -1,0 +1,21 @@
+{
+  "projectName": "tanstack-todo-list",
+  "mode": "file-router",
+  "typescript": true,
+  "packageManager": "npm",
+  "tailwind": true,
+  "addOnOptions": {
+    "drizzle": {
+      "database": "sqlite"
+    }
+  },
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": [
+    "nitro",
+    "start",
+    "drizzle",
+    "shadcn"
+  ]
+}
