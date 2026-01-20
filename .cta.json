@@ -5,7 +5,7 @@
   "packageManager": "npm",
   "tailwind": true,
   "addOnOptions": {
-    "drizzle": {
+    "prisma": {
       "database": "sqlite"
     }
   },
@@ -15,7 +15,7 @@
   "chosenAddOns": [
     "nitro",
     "start",
-    "drizzle",
+    "prisma",
     "shadcn"
   ]
 }
